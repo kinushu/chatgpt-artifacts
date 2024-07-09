@@ -39,6 +39,14 @@ Start the app
 npm start
 ```
 
+with 1Password CLI
+
+```shell
+alias op_env='op run --env-file=".env_op" --no-masking --'
+alias npm_op='op_env npm'
+npm_op start
+```
+
 ## License
 
 [GPL-3.0](https://github.com/ozgrozer/chatgpt-artifacts/blob/main/license)
